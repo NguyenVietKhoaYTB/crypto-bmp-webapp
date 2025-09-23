@@ -17,7 +17,7 @@ except ImportError as e:
 
 st.set_page_config(page_title="🔐 Web App Mã Hóa BMP", layout="wide")
 st.title("🔐 Web App Mã Hóa BMP")
-st.write("Ứng dụng mã hóa/giải mã ảnh BMP bằng AES")
+st.write("Ứng dụng mã hóa/giải mã ảnh BMP bằng AES, được tạo bởi Nguyễn Việt Khoa YTB")
 
 # Upload file
 uploaded_file = st.file_uploader("Chọn file BMP", type=["bmp"])
@@ -119,4 +119,5 @@ else:
 
 # Thêm footer
 st.markdown("---")
+
 st.markdown("Ứng dụng mã hóa BMP bằng AES - Created with Streamlit")
